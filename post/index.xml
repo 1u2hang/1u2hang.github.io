@@ -5,12 +5,81 @@
     <link>https://anhzhang1994.github.io/post/</link>
       <atom:link href="https://anhzhang1994.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://anhzhang1994.github.io/media/icon_hudba1d879a1845c308609f01ef1067538_559007_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://anhzhang1994.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Reading Notes for InfoVis</title>
+      <link>https://anhzhang1994.github.io/post/infovis/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://anhzhang1994.github.io/post/infovis/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Process and Pitfalls in Writing Information
+Visualization Research Papers&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Potential contributions of InfoVis papers:&lt;/p&gt;
+&lt;p&gt;– algorithm complexity analysis&lt;/p&gt;
+&lt;p&gt;– implementation performance (speed, memory)&lt;/p&gt;
+&lt;p&gt;– quantitative metrics&lt;/p&gt;
+&lt;p&gt;– qualitative discussion of result pictures&lt;/p&gt;
+&lt;p&gt;– user anecdotes (insights found)&lt;/p&gt;
+&lt;p&gt;– user community size (adoption)&lt;/p&gt;
+&lt;p&gt;– informal usability study&lt;/p&gt;
+&lt;p&gt;– laboratory user study&lt;/p&gt;
+&lt;p&gt;– field study with target user population&lt;/p&gt;
+&lt;p&gt;– design justification from task analysis&lt;/p&gt;
+&lt;p&gt;– visual encoding justification from theoretical principles&lt;/p&gt;
+&lt;p&gt;5 main primary contributions: &lt;strong&gt;an algorithm, a design, a system, a user study, or a model&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;1-technique-algorithm&#34;&gt;1. Technique (Algorithm)&lt;/h2&gt;
+&lt;p&gt;Sophisticated enough, or go Design Study&lt;/p&gt;
+&lt;h2 id=&#34;2-design-study&#34;&gt;2. Design Study&lt;/h2&gt;
+&lt;p&gt;demonstrate that &lt;strong&gt;a new visual representation&lt;/strong&gt; is a suitable
+solution for &lt;strong&gt;a particular domain problem&lt;/strong&gt;。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Balance between background information and infovis&lt;/li&gt;
+&lt;li&gt;Task analysis -&amp;gt; Design requirements&lt;/li&gt;
+&lt;li&gt;Present your visual encoding and interaction mechanisms and justify how well these design choices fulfill the requirements&lt;/li&gt;
+&lt;li&gt;Results (e.g. case studies, scenarios of use) to demonstrate the effectiveness of your design&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;3-system&#34;&gt;3. System&lt;/h2&gt;
+&lt;p&gt;Focus on the architectural choices made in the design of an infrastructure, framework, or toolkit. The research contribution of a systems paper is the discussion of architectural design choices and abstractions in a framework or library, not just a single application.&lt;/p&gt;
+&lt;h2 id=&#34;4-evaluation&#34;&gt;4. Evaluation&lt;/h2&gt;
+&lt;p&gt;User study with quantitative measurements. Field study.&lt;/p&gt;
+&lt;h2 id=&#34;5-model&#34;&gt;5. Model&lt;/h2&gt;
+&lt;p&gt;Meta analysis.&lt;/p&gt;
+&lt;h1 id=&#34;pitfalls&#34;&gt;Pitfalls&lt;/h1&gt;
+&lt;p&gt;The above contributions can be combined, but should avoid pitfalls:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Type Pitfalls&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;1.1. Design in Technique’s Clothing:Don’t validate a new design by providing only performance measurements.&lt;/p&gt;
+&lt;p&gt;1.2. Application Bingo VS Design Study: Don’t just apply an existing technique to a new domain without a design study.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Middle Pitfalls: Visual Encoding&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;2.1. Unjustified Visual Encoding: why this encoding?&lt;/p&gt;
+&lt;p&gt;2.2. Hammer In Search Of Nail: interactive prototype beforehand.&lt;/p&gt;
+&lt;p&gt;2.3. 2D Good, 3D Better: Tradeoffs.&lt;/p&gt;
+&lt;p&gt;2.4. Color Cacophony: follow basic color perception facts&lt;/p&gt;
+&lt;p&gt;2.5. Rainbows Just Like In The Sky: avoid unjustified use of a continuous rainbow colormap&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Late Pitfalls: Paper Strategy, Tactics, and Results&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;3.1. Strategy Pitfalls： don&amp;rsquo;t be too detailed on trivial things; don&amp;rsquo;t conclude too much in one paper, or make too many papers from one project; know &lt;em&gt;repartitioning&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;3.2. Tactical Pitfalls: be straightfoward and clearly state contribution; don&amp;rsquo;t ignore previous work; aviood enumeration without justification; aviod sweeping assertions; clearyly discuss limitations&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Results Pitfalls:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Remember &lt;strong&gt;Time&lt;/strong&gt; and &lt;strong&gt;Complexity&lt;/strong&gt;.  Compare with SOTA. Aviod tiny toy datasets (unless it is suitable for the task with explaination and justification). Avoid qualitative results without user feedback. Conduct rigorous user studies with reasonable task.&lt;/p&gt;
+&lt;h1 id=&#34;final-pitfalls-style-and-submission&#34;&gt;Final Pitfalls: Style and Submission&lt;/h1&gt;
+&lt;p&gt;Clear writing, describe visual representations detailly, grammar and spelling check, avoid passive voice, define jargon clearly, cleary descripe size instead of &amp;ldquo;big&amp;quot;&amp;ldquo;large&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;submission-pitfalls&#34;&gt;Submission Pitfalls&lt;/h1&gt;
+&lt;p&gt;No double submission, no resubmission without changes&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>PhD 101</title>
@@ -29,6 +98,9 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://eli.johogo.com/Class/AWFGS.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic Writing for Graduate Students&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/pitfalls.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Process and Pitfalls in Writing Information Visualization Research Papers&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
